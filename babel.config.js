@@ -7,6 +7,7 @@ const buildPluginConfig = (api) => {
       root: ["."],
       extensions: [".js", ".json"],
       alias: {
+        "@assets": "./src/assets",
         "@screens": "./src/screens",
         "@components": "./src/components",
         "@contexts": "./src/contexts",
